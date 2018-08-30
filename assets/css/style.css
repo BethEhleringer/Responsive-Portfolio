@@ -1,0 +1,230 @@
+body {
+    margin: 0 auto;
+    color:#777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url("./images/wavy-dots.png");
+}
+
+header {
+    width: 100%;
+    padding: 25px 0px;
+    margin-bottom:20px;
+    position: relative;
+    display:block;
+    background-color:#FFF;
+    border-bottom: solid 2px #000;
+}
+
+.content {
+    width:960px;
+    margin: 0px auto;
+    position: relative;
+}
+
+h1{
+
+color: #FFF;
+font-family: 'Georgia', Times, 'Times New Roman', serif;
+background-color:#4aaaa5;
+margin-left:0px;
+padding:25px 20px;
+display:inline;
+}
+
+h2 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+    margin:20px;
+    /*padding: 10px 0px;*/
+}
+
+.logo {
+    float:left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+span {
+    background-color:#4aaaa5;
+    padding:10px;
+}
+
+
+p {
+    color: #777;
+    margin: 0px 20px 20px 20px;
+}
+
+footer {
+    background-color: #666;
+    width:960px;
+    position:fixed;
+    bottom:0px;
+    border-top:solid 4px #4aaaa5;
+    margin: 0 auto;
+    color:#fff;
+    padding:40px 0px 1px 0px;
+    z-index: 3;
+    
+}
+
+footer p {
+    color:#fff;
+    text-align:center;
+
+}
+
+form {
+    margin:20px;
+
+
+}
+
+.wrapper {
+    width:960px;
+    margin:0px auto;
+    padding:0px;
+    
+    
+}
+
+.content {
+    width:960px;
+    margin: 0px auto;
+}
+
+.main {
+    margin-bottom: 100px; background-color:#FFF;
+    border: solid 1px #ddd;
+}
+
+article {
+    margin: 20px;
+}
+
+.main img {
+    float: left;
+    margin-bottom: 10px;
+}
+
+nav {
+    float:left;
+    display:inline;
+    position:absolute;
+    padding: 10px 20px;
+    right: 0px;
+
+}
+
+nav a {
+    text-decoration: none;
+    padding-left:40px;
+    color:#666;
+
+}
+
+nav a:hover {
+    color: #333;
+}
+
+nav a.active {
+    text-decoration:underline;
+
+}
+
+hr {
+    margin:20px;
+    border-color: #666;
+    border-width: 1px;
+}
+
+#gallery {
+
+    margin-bottom:20px;
+
+}
+
+#gallery figure {
+    height:300px;
+    width:300px;
+    
+}
+
+#galleryfigure img {
+    z-index: -1;
+    
+}
+
+.left {
+    float:left;
+    display:inline;
+}
+
+.right {
+    float:left;
+    display:inline-block;
+}
+
+.left1 {
+    float:none;
+    display:inline-block;
+}
+
+#gallery figcaption {
+    width:100%;
+    background-color: #4aaaa5;
+    color:#fff;
+    position: relative;
+    bottom:80px;
+    padding:10px 0px;
+    margin: 0px auto;
+    text-align: center;
+    z-index:2;
+    
+
+}
+
+.main figure {
+    margin: 0px 20px 20px 10px;
+    float: left;
+}
+
+.main figure figcaption {
+    background-color:#FFF;
+    color:#777;
+    text-align:center;
+    font-size:14px;
+    font-style: italic;
+
+}
+
+.button {
+    background-color: #4aaaa5;
+    border-radius: 3px;
+    color: #FFF;
+    padding:5px 20px;
+}
+/* by Atle Mo (design), Lea Verou (code). Source: http://lea.verou.me/css3patterns/#carbon-fibre */
+.carbonfibre {
+    background:
+radial-gradient(black 15%, transparent 16%) 0 0,
+radial-gradient(black 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#282828;
+background-size:16px 16px;
+}
+
+/* by Logan McBroom. Source:  http://lea.verou.me/css3patterns/#stairs */
+.stairs {
+    background: 
+linear-gradient(63deg, #999 23%, transparent 23%) 7px 0, 
+linear-gradient(63deg, transparent 74%, #999 78%), 
+linear-gradient(63deg, transparent 34%, #999 38%, #999 58%, transparent 62%), 
+#888;
+background-size: 16px 48px;
+?
