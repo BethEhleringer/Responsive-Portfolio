@@ -211,7 +211,7 @@ hr {
 }
 
 @media only screen and (max-width: 980px) {
-    p {color:#0F0;}
+
     .wrapper {
         width:100%;
         
@@ -238,8 +238,7 @@ hr {
 
 
 @media only screen and (max-width: 768px) {
-    p {color:#00F;}
-
+    
     .wrapper {
         width:100%;
         margin:0px auto;
@@ -307,7 +306,7 @@ nav a {
             width:100%;
             max-width:600px;
         }
-    p {color:purple;
+    p {
         margin-right:20px;}
 
 
