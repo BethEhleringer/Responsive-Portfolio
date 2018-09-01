@@ -92,10 +92,7 @@ form {
     
 }
 
-.content {
-    width:960px;
-    margin: 0px auto;
-}
+
 
 .main {
     margin-bottom: 100px; background-color:#FFF;
@@ -106,10 +103,25 @@ article {
     margin: 20px;
 }
 
-.main img {
+.main figure {
+    width:300px;
     float: left;
-    margin-bottom: 10px;
+    display:inline;
+    margin:0px 20px 10px 0px;
 }
+
+.main figcaption {
+    font-size:14px;
+    color:#777;
+    font-style: italic;
+    text-align: center;
+    
+}
+
+.main img {
+    width:100%;
+}
+
 
 nav {
     float:left;
@@ -142,6 +154,8 @@ hr {
     border-width: 1px;
 }
 
+
+
 #gallery {
 
     margin-bottom:20px;
@@ -151,8 +165,7 @@ hr {
 #gallery figure {
     height:300px;
     width:300px;
-    
-}
+   }
 
 #galleryfigure img {
     z-index: -1;
@@ -188,19 +201,7 @@ hr {
 
 }
 
-.main figure {
-    margin: 0px 20px 20px 10px;
-    float: left;
-}
 
-.main figure figcaption {
-    background-color:#FFF;
-    color:#777;
-    text-align:center;
-    font-size:14px;
-    font-style: italic;
-
-}
 
 .button {
     background-color: #4aaaa5;
@@ -208,23 +209,109 @@ hr {
     color: #FFF;
     padding:5px 20px;
 }
-/* by Atle Mo (design), Lea Verou (code). Source: http://lea.verou.me/css3patterns/#carbon-fibre */
-.carbonfibre {
-    background:
-radial-gradient(black 15%, transparent 16%) 0 0,
-radial-gradient(black 15%, transparent 16%) 8px 8px,
-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
-background-color:#282828;
-background-size:16px 16px;
+
+@media only screen and (max-width: 980px) {
+    p {color:#0F0;}
+    .wrapper {
+        width:100%;
+        
+    }
+    .content {
+        width:100%;
+    }
+    
+    .main {
+        width:768px;
+        margin:0px auto;
+        padding-right:20px;
+        padding-left:20px;
+        }
+
+    .content {
+        width:100%;
+    }
+
+    .footer {
+        width:100%;
+    }
 }
 
-/* by Logan McBroom. Source:  http://lea.verou.me/css3patterns/#stairs */
-.stairs {
-    background: 
-linear-gradient(63deg, #999 23%, transparent 23%) 7px 0, 
-linear-gradient(63deg, transparent 74%, #999 78%), 
-linear-gradient(63deg, transparent 34%, #999 38%, #999 58%, transparent 62%), 
-#888;
-background-size: 16px 48px;
-?
+
+@media only screen and (max-width: 768px) {
+    p {color:#00F;}
+
+    .wrapper {
+        width:100%;
+        margin:0px auto;
+        padding:0px   
+         }
+
+         .main {
+             width:640px;
+            
+         }
+}
+
+
+@media only screen and (max-width: 640px) {
+    header {
+        position: static;
+        padding:0px;
+        margin:0px auto;
+        }
+    h1 {
+        display:block;
+        text-align:center;
+        width:100%;
+        margin:0px auto;
+    }
+    
+    nav {
+        float:none;
+        display:block;
+        position:static;
+        padding: 10px 20px;
+        margin: 0px auto;
+        text-align:center;
+        
+
+    }
+
+nav a {
+    text-decoration: none;
+    padding-left:40px;
+    color:#666;
+
+}    
+        .left {
+            float:none;
+            display:block;
+        }
+        
+        .right {
+            float:none;
+            display:block;
+        }
+
+        .main {
+            width:100%;
+            margin-left: 20px;
+            margin-right:20px;
+        }
+        .main img {
+            /*border: dashed 8px red;*/
+            
+            float: none;
+            display:block;
+            margin: 20px auto;
+            width:100%;
+            max-width:600px;
+        }
+    p {color:purple;
+        margin-right:20px;}
+
+
+
+
+    
+}
